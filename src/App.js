@@ -1,25 +1,22 @@
-import logo from './logo.svg';
+import React,{Component, useState} from 'react';
+// import logo from './logo.svg';
 import './App.css';
+import Student from './Student';
+import Toggle from './Toggle';
+import Forms from './Forms'
+
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+  
+  
+
+  return(
+    <div className='App'>
+      {/* <Toggle/> */}
+      <Forms />
     </div>
-  );
+  )
+  
 }
 
 export default App;

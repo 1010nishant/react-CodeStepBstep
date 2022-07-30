@@ -1,0 +1,4 @@
+here, two individual file(component assume Student) included on reciving other sended file(jisme <Student/> hai)
+
+
+we can't change props in reciveing components only in perent component(jis component se send kar rhe hai)
